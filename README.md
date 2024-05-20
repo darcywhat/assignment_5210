@@ -1,16 +1,12 @@
 ### assignment_5210
 
-Quant-Finance
-Quantitative trading projects, including CTA (Commodity trading advise) srategy and Statistical arbitrage
+一些说明：
 
-### Basic backtetsing method
-All of the backtesting methods are from technical indicators based on price of stocks
+数据：通过sqlalchemy和日志记录从数据库中提取
 
-DMAC (Dual moving average crossover)
-BBW (Bollinger bands width)
-### CTA trading strategy -- BTC-PERP
-Bollinger Bands Width (BBW) + Dual Moving Average Crossover (DMAC)
-### Pairs Trading -- A Taiwanese stock approach
-### Options pricing methods and simulation
-Option payoff graph guide for every master student @ NCCU MAB track 111
-Option payoff graph considering time value
+bic：财务报告的信息，合并了资产负债表、损益表和现金流量表。做了一些清洗。
+sb: stock_basic，股票的间接数据，如PE、市值。
+ac：来自分析师的 EPS、收入、利润的预测值。
+OHLC：股票后复权数据，例如股票价格和交易量的收盘价、开盘价、最高价、最低价。
+OHLC_qfq：股票前复权数据。
+思路来自一些研报。
